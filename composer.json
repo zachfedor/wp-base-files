@@ -1,0 +1,24 @@
+{
+    "name"        : "tower/site_name",
+    "description" : "wordpress theme for site_name",
+    "authors"     : [
+        {
+            "name"    : "zach fedor",
+            "email"   : "fedor@towermarketing.net",
+            "homepage": "http://towermarketing.net"
+        }
+    ],
+    "type"        : "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url" : "http://wpackagist.org"
+        }
+    ],
+    "require"     : {
+        "johnpbloch/wordpress"            : ">=3.9"
+    },
+    "extra"       : {
+        "wordpress-install-dir": "wp"
+    }
+}
